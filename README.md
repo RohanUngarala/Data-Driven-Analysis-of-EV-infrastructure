@@ -1,12 +1,152 @@
-# Data-Driven-Analysis-of-EV-infrastructure
+# 🚗 Velocity: Data-Driven Analysis of EV Charging Infrastructure for a Smart City 🚀
 
 ![image](https://github.com/user-attachments/assets/525f3885-4f47-4a59-9491-97860a32d486)
 
+### 📌 Medium/Heavy-Duty Vehicles
+
+This project presents a **data-driven approach** to optimizing **Electric Vehicle (EV) charging infrastructure**, particularly for **medium and heavy-duty vehicles** within a **smart city ecosystem**. The research leverages **machine learning models, forecasting techniques, and optimization algorithms** to predict EV demand, optimize charging station locations, and ensure efficient energy resource allocation.
+
+## 📖 Table of Contents
+- [Overview](#-overview)
+- [Features](#-features)
+- [System Architecture](#-system-architecture)
+- [Technologies Used](#-technologies-used)
+- [Demo](#-demo)
+- [Setup & Installation](#-setup--installation)
+- [Contributors](#-contributors)
+
+---
+
+## 🔍 Overview
+The **increasing adoption of EVs** requires a robust **charging infrastructure** that can cater to different vehicle types. This project addresses the **challenges of optimal charging station placement**, **energy demand forecasting**, and **vehicle range prediction** for **medium and heavy-duty vehicles** within a **smart city ecosystem**.
+
+### 🏆 Objectives:
+- 📈 **Forecast EV demand & charging station growth** using **time-series models** (Prophet).
+- 🔋 **Predict vehicle range** to optimize charging efficiency using **Stacking Ensemble Regressor**.
+- ⚡ **Anticipate energy demand** using a **Temporal Fusion Transformer** model.
+- 📍 **Optimize new charging station locations** with **Linear Programming & K-means clustering**.
+
+---
+
+## ✨ Features
+✅ **EV Demand Forecasting** – Predict the number of heavy-duty EVs & required charging stations.  
+✅ **Range Prediction** – Estimate the driving range of EVs based on real-time charging data.  
+✅ **Energy Demand Forecasting** – Optimize **short & long-term** charging demand at stations.  
+✅ **Charging Station Placement Optimization** – Find the **best locations** for new stations.  
+✅ **Real-time Visualization** – Interactive **dashboards** for data insights & analysis.  
+
+---
+
+## 🏛️ System Architecture
+Below is a high-level **system architecture** diagram illustrating the **data flow, models, and outputs**.
+
+```
+                     ┌───────────────────────────────┐
+                     │        Data Sources           │
+                     │ (EV Data, Charging Stats,     │
+                     │  Geographic & Traffic Data)  │
+                     └──────────────┬───────────────┘
+                                    │
+                                    ▼
+                     ┌───────────────────────────────┐
+                     │       Data Processing         │
+                     │ (Preprocessing, Cleaning,     │
+                     │  Feature Engineering)        │
+                     └──────────────┬───────────────┘
+                                    │
+                                    ▼
+     ┌───────────────┬──────────────┬───────────────┐
+     │ EV Demand    │ Range        │ Energy        │
+     │ Forecasting  │ Prediction   │ Prediction    │
+     │ (Prophet)    │ (Stacking)   │ (Transformer) │
+     └───────────────┴──────────────┴───────────────┘
+                                    │
+                                    ▼
+                     ┌───────────────────────────────┐
+                     │   Charging Station Placement  │
+                     │ (K-means + Linear Programming)│
+                     └──────────────┬───────────────┘
+                                    │
+                                    ▼
+                     ┌───────────────────────────────┐
+                     │        Visualization          │
+                     │ (Dashboards, Reports, APIs)  │
+                     └───────────────────────────────┘
+```
+---
+![image](https://github.com/user-attachments/assets/5b5c58da-22df-4722-80cf-ccab9f2903ad)
+
+Web Development:
+
+Built on Flask Architecture for a user-friendly website.
+HTML, CSS, and JavaScript for dynamic web pages.
+AWS S3 for data storage and retrieval.
+
+Database Management:
+
+AWS S3 for secure and scalable storage of relevant EV charging-related data and predictions.
+
+Machine Learning Models:
+
+Leveraged tools such as Pandas, scikit-learn, TensorFlow, Prophet, and PuLP.
+Collaborative platforms include Google Colab and Google Cloud.
 
 
+## 🛠️ Technologies Used
+- **Python** – Data processing, ML models  
+- **Pandas, NumPy, Scikit-Learn** – Data analytics  
+- **Prophet** – Time series forecasting  
+- **TensorFlow, PyTorch** – Deep learning models  
+- **PuLP** – Optimization for station placement  
+- **Tableau / Power BI** – Data visualization  
+- **AWS / Google Cloud** – Cloud-based infrastructure  
 
-# Overview
+---
 
-The advent of electric vehicles (EVs) has ushered in a transformative era in urban transportation.In response to the rising prominence of electric vehicles (EVs) in urban transportation, this project conducts a meticulous data-driven analysis, concentrating on the unique challenges and opportunities presented by the charging infrastructure tailored for medium/heavy-duty vehicles within the dynamic context of a smart city. The overarching objectives of the study encompass forecasting the expanding demand for EVs, mitigating concerns related to driving range limitations, optimizing energy resource allocation, and strategically situating charging stations. Leveraging advanced forecasting models, such as the Prophet model for market growth and a Stacking Ensemble Regressor model with weighted fusion for range prediction, the study anticipates and addresses critical issues associated with EV adoption. Additionally, the Temporal Fusion Transformer model is applied to optimize energy resource allocation at EV charging stations, ensuring sustainability and cost-effectiveness. The placement of charging infrastructure is strategically addressed through the integration of a PuLP linear programming optimization model with K-means clustering, enabling the prediction of optimal locations for new charging stations that cater to diverse vehicle types and align with the evolving needs of urban mobility. This comprehensive project, employing cutting-edge machine learning methodologies, encapsulates a forward-thinking analysis of the evolving landscape of EV charging infrastructure. The findings aim to contribute actionable insights for the enhancement and strategic expansion of EV charging infrastructure, thereby propelling sustainable urban mobility into the future.
+## 🎥 Demo
+📺 **Watch a live demo of the project here:**  
+[![Demo Video](https://img.youtube.com/vi/your-video-id/maxresdefault.jpg)](https://www.youtube.com/watch?v=your-video-id) *(Replace with actual video link)*  
 
+💻 **Live Dashboard:** [EV Charging Analytics](https://your-dashboard-link.com) *(Replace with actual dashboard URL)*  
 
+---
+
+## 🚀 Setup & Installation
+To run the project locally, follow these steps:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/ev-charging-analysis.git
+   cd ev-charging-analysis
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the data pipeline**
+   ```bash
+   python data_processing.py
+   ```
+
+4. **Train the models**
+   ```bash
+   python train_models.py
+   ```
+
+5. **Start the visualization dashboard**
+   ```bash
+   streamlit run dashboard.py
+   ```
+
+---
+
+🔗 **Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/)  
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+📧 **For inquiries, contact:** [rohanmayukh@gmail.com]  
+---
