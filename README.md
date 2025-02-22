@@ -142,7 +142,7 @@ To run the project locally, follow these steps:
 
 ---
 
-🔗 **Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/)  
+🔗 **Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/people/jerry.gao/)  
 
 ---
 
