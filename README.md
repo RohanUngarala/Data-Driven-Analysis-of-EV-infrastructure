@@ -76,23 +76,23 @@ Below is a high-level **system architecture** diagram illustrating the **data fl
 ---
 ![image](https://github.com/user-attachments/assets/5b5c58da-22df-4722-80cf-ccab9f2903ad)
 
-Web Development:
+## Web Development:
 
 Built on Flask Architecture for a user-friendly website.
 HTML, CSS, and JavaScript for dynamic web pages.
 AWS S3 for data storage and retrieval.
 
-Database Management:
+## Database Management:
 
 AWS S3 for secure and scalable storage of relevant EV charging-related data and predictions.
 
-Machine Learning Models:
+## Machine Learning Models:
 
 Leveraged tools such as Pandas, scikit-learn, TensorFlow, Prophet, and PuLP.
 Collaborative platforms include Google Colab and Google Cloud.
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Python** – Data processing, ML models  
 - **Pandas, NumPy, Scikit-Learn** – Data analytics  
 - **Prophet** – Time series forecasting  
@@ -103,11 +103,27 @@ Collaborative platforms include Google Colab and Google Cloud.
 
 ---
 
-## 🎥 Demo
-📺 **Watch a live demo of the project here:**  
-[![Demo Video](https://img.youtube.com/vi/your-video-id/maxresdefault.jpg)](https://www.youtube.com/watch?v=your-video-id) *(Replace with actual video link)*  
+## Demo
 
-💻 **Live Dashboard:** [EV Charging Analytics](https://your-dashboard-link.com) *(Replace with actual dashboard URL)*  
+## Home Page of the Velocity:
+![image](https://github.com/user-attachments/assets/514100c0-2e55-461c-b1f1-52095544835f)
+
+** Overview of project divisions and functionalities.
+
+## Charging Census Page:
+![image](https://github.com/user-attachments/assets/23f795d3-fa7e-43ed-a534-e0d8727d2c28)
+
+<img width="853" alt="image" src="https://github.com/user-attachments/assets/814a2726-af55-4702-9e0a-b4715e73b053" />
+
+## Charging Snapshot Page:
+![image](https://github.com/user-attachments/assets/f37c0b39-08dd-40b1-bfb7-56b79e74e38b)
+
+![image](https://github.com/user-attachments/assets/c40b1a32-f943-418f-acea-9efd40dfa6a7)
+
+## Charge Map Page:
+
+![image](https://github.com/user-attachments/assets/4561fda3-2190-4391-a112-26bacbddcf39)
+
 
 ---
 
@@ -116,29 +132,30 @@ To run the project locally, follow these steps:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/ev-charging-analysis.git
-   cd ev-charging-analysis
+   git clone  https://github.com/your-username/velocity.git
+   cd velocity
    ```
 
 2. **Install dependencies**
    ```bash
+  # Example using pip
    pip install -r requirements.txt
    ```
 
-3. **Run the data pipeline**
+3. **Run the Flask Application**
    ```bash
-   python data_processing.py
+   flask run
    ```
 
 4. **Train the models**
    ```bash
    python train_models.py
    ```
+   
+5. Access the website at (http://localhost:5000/)
 
-5. **Start the visualization dashboard**
-   ```bash
-   streamlit run dashboard.py
-   ```
+6. **Access the visualization dashboard** (https://public.tableau.com/app/profile/lohitha.vanteru6992/viz/MarketAnalysisofHDMD-EVCSI_17043325836300/Story2)
+ 
 
 ---
 
