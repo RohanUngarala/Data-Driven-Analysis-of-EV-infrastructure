@@ -1,12 +1,12 @@
-# 🚗 Velocity: Data-Driven Analysis of EV Charging Infrastructure for a Smart City 🚀
+# 🚗 Velocity: Data-Driven Analysis of EV Charging Infrastructure for a Smart City 
 
 ![image](https://github.com/user-attachments/assets/525f3885-4f47-4a59-9491-97860a32d486)
 
-### 📌 Medium/Heavy-Duty Vehicles
+### Medium/Heavy-Duty Vehicles
 
 This project presents a **data-driven approach** to optimizing **Electric Vehicle (EV) charging infrastructure**, particularly for **medium and heavy-duty vehicles** within a **smart city ecosystem**. The research leverages **machine learning models, forecasting techniques, and optimization algorithms** to predict EV demand, optimize charging station locations, and ensure efficient energy resource allocation.
 
-## 📖 Table of Contents
+## Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
 - [System Architecture](#-system-architecture)
@@ -29,15 +29,15 @@ The **increasing adoption of EVs** requires a robust **charging infrastructure**
 ---
 
 ## ✨ Features
-✅ **EV Demand Forecasting** – Predict the number of heavy-duty EVs & required charging stations.  
-✅ **Range Prediction** – Estimate the driving range of EVs based on real-time charging data.  
-✅ **Energy Demand Forecasting** – Optimize **short & long-term** charging demand at stations.  
-✅ **Charging Station Placement Optimization** – Find the **best locations** for new stations.  
-✅ **Real-time Visualization** – Interactive **dashboards** for data insights & analysis.  
+**EV Demand Forecasting** – Predict the number of heavy-duty EVs & required charging stations.  
+**Range Prediction** – Estimate the driving range of EVs based on real-time charging data.  
+**Energy Demand Forecasting** – Optimize **short & long-term** charging demand at stations.  
+**Charging Station Placement Optimization** – Find the **best locations** for new stations.  
+**Real-time Visualization** – Interactive **dashboards** for data insights & analysis.  
 
 ---
 
-## 🏛️ System Architecture
+## System Architecture
 Below is a high-level **system architecture** diagram illustrating the **data flow, models, and outputs**.
 
 ```
@@ -111,7 +111,7 @@ Collaborative platforms include Google Colab and Google Cloud.
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 To run the project locally, follow these steps:
 
 1. **Clone the repository**
@@ -142,11 +142,7 @@ To run the project locally, follow these steps:
 
 ---
 
-🔗 **Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/people/jerry.gao/)  
+**Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/people/jerry.gao/)  
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License.
-📧 **For inquiries, contact:** [rohanmayukh@gmail.com]  
----
