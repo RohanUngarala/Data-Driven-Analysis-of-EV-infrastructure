@@ -7,13 +7,12 @@
 This Velocity project presents a **data-driven approach** to optimizing **Electric Vehicle (EV) charging infrastructure**, particularly for **medium and heavy-duty vehicles** within a **smart city ecosystem**. The research leverages **machine learning models, forecasting techniques, and optimization algorithms** to predict EV demand, optimize charging station locations, and ensure efficient energy resource allocation.
 
 ## Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
-- [System Architecture](#-system-architecture)
-- [Technologies Used](#-technologies-used)
-- [Demo](#-demo)
-- [Setup & Installation](#-setup--installation)
-- [Contributors](#-contributors)
+- [Overview](#overview)
+- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Technologies Used](#technologies-used)
+- [Demo](#demo)
+- [Setup & Installation](#setup--installation)
 
 ---
 
