@@ -21,7 +21,7 @@ This Velocity project presents a **data-driven approach** to optimizing **Electr
 The **increasing adoption of EVs** requires a robust **charging infrastructure** that can cater to different vehicle types. This project addresses the **challenges of optimal charging station placement**, **energy demand forecasting**, and **vehicle range prediction** for **medium and heavy-duty vehicles** within a **smart city ecosystem**.
 
 ### Objectives:
-- **Forecast EV demand & charging station growth** using **time-series models** (Prophet).
+- **Forecast EV demand & charging station growth** using **time-series models** (Prophet Model).
 - **Predict vehicle range** to optimize charging efficiency using **Stacking Ensemble Regressor**.
 - **Anticipate energy demand** using a **Temporal Fusion Transformer** model.
 - **Optimize new charging station locations** with **Linear Programming & K-means clustering**.
@@ -70,7 +70,7 @@ Below is a high-level **system architecture** diagram illustrating the **data fl
                                     ▼
                      ┌───────────────────────────────┐
                      │        Visualization          │
-                     │ (Dashboards, Reports, APIs)  │
+                     │ (Dashboards, Reports, APIs)   │
                      └───────────────────────────────┘
 ```
 ---
@@ -161,3 +161,5 @@ To run the project locally, follow these steps:
 ---
 **Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/people/jerry.gao/)  
 ---
+# **License**
+This project is licensed under the MIT License.
