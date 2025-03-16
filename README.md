@@ -161,6 +161,5 @@ http://localhost:5000/
 ---
 **Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/people/jerry.gao/)  
 ---
-# **License**
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
