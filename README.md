@@ -136,27 +136,31 @@ Below is a high-level **system architecture** diagram illustrating the **data fl
 
 To run the project locally, follow these steps:
 
+## Setup & Installation
+
+To run the project locally, follow these steps:
+
 1. **Clone the repository**  
    Open a terminal and run:
    ```bash
    git clone https://github.com/your-username/velocity.git
    cd velocity
-
 2. **Install dependencies**
-Example using pip:
+Install the required packages using pip:
 pip install -r requirements.txt
-
 3. **Run the Flask application**
+Start the Flask server by running:
 flask run
-
 4. **Train the models**
+Execute the following command to train models:
 python train_models.py
-
-5. **Access the website at (http://localhost:5000/)**
-
+5. **Access the website**
+Open your browser and visit:
+http://localhost:5000/
 6. **Access the visualization dashboard (https://public.tableau.com/app/profile/lohitha.vanteru6992/viz/MarketAnalysisofHDMD-EVCSI_17043325836300/Story2)**
 ---
 **Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/people/jerry.gao/)  
 ---
 # **License**
-This project is licensed under the MIT License.
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
