@@ -132,31 +132,29 @@ Below is a high-level **system architecture** diagram illustrating the **data fl
 ![image](https://github.com/user-attachments/assets/4561fda3-2190-4391-a112-26bacbddcf39)
 
 ---
-
 ## Setup & Installation
+
 To run the project locally, follow these steps:
 
-1. Clone the repository
+1. **Clone the repository**  
+   Open a terminal and run:
    ```bash
-   git clone  https://github.com/your-username/velocity.git
+   git clone https://github.com/your-username/velocity.git
    cd velocity
-   ```
-2. Install dependencies
-   ```bash
-  **Example using pip**
-   pip install -r requirements.txt
-   ```
-3. Run the Flask Application
-   ```bash
-   flask run
-   ```
-4. Train the models
-   ```bash
-   python train_models.py
-   ```
-5. Access the website at (http://localhost:5000/)
 
-6. Access the visualization dashboard (https://public.tableau.com/app/profile/lohitha.vanteru6992/viz/MarketAnalysisofHDMD-EVCSI_17043325836300/Story2)
+2. **Install dependencies**
+Example using pip:
+pip install -r requirements.txt
+
+3. **Run the Flask application**
+flask run
+
+4. **Train the models**
+python train_models.py
+
+5. **Access the website at (http://localhost:5000/)**
+
+6. **Access the visualization dashboard (https://public.tableau.com/app/profile/lohitha.vanteru6992/viz/MarketAnalysisofHDMD-EVCSI_17043325836300/Story2)**
 ---
 **Project Supervisor:** [Dr. Jerry Gao](https://www.sjsu.edu/people/jerry.gao/)  
 ---
